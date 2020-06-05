@@ -6,4 +6,4 @@
 	url = https://github.com/robtry/emotionfy.git
 [submodule "emotionfy-api"]
 	path = emotionfy-api
-	url = https://github.com/Cabemo/emotionfy-api.git
+	url = https://github.com/Cabemo/emotionfy-api
