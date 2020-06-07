@@ -7,16 +7,17 @@ services:
   # EXPRESS: 5000
   api:
     build: 
-      context: ./emotionfy-api
+      context: ./emotionfy-api/backend
       dockerfile: Dockerfile.dev
-    image: cabemo/emotionfy-api
-    env_file: ./emotionfy-api/.env
+    image: cabemo/emotionfy-api/backend
+    env_file: ./emotionfy-api/backend/.env
     container_name: emotionfy-api
     volumes:
       - ./node_modules
   # CLIENT: 3000
   client:
     image: cabemo/emotionfy
+    env_file: ./emotionfy/.env
     container_name: emotionfy
     build:
       context: ./emotionfy

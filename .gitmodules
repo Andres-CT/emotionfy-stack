@@ -1,9 +1,11 @@
-[submodule "emotion-recognition"]
-	path = emotion-recognition
-	url = https://github.com/Cabemo/emotion-classifier
-[submodule "emotionfy"]
-	path = emotionfy
-	url = https://github.com/robtry/emotionfy
 [submodule "emotionfy-api"]
 	path = emotionfy-api
 	url = https://github.com/Cabemo/emotionfy-api
+[submodule "emotion-classifier"]
+	path = emotion-classifier
+	url = https://github.com/Cabemo/emotion-classifier
+	branch = master
+[submodule "emotionfy"]
+	path = emotionfy
+	url = https://github.com/robtry/emotionfy
+	branch = master
